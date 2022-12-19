@@ -24,5 +24,7 @@ https://github.com/angristan/openvpn-install
 <br />iroute 192.168.88.0 255.255.255.0
 <br />iroute 192.168.8.0 255.255.255.0
 
-3. on client side to push vpn local trafic only
+3. on client config .ovpn to push vpn local trafic only
 
+route-nopull
+route 10.0.1.0 255.255.255.0
