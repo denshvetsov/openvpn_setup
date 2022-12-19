@@ -16,7 +16,7 @@ https://github.com/angristan/openvpn-install
 <br />client-to-client
 <br />push "route 10.0.2.0 255.255.255.0"
 
-2. add client config
+2. add client config. outside router has ip 10.0.2.1, subnet 255.255.255.0
 <br />sudo nano /etc/openvpn/ccd/clien-name
 
 <br />iroute 192.168.9.0 255.255.255.0
