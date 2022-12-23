@@ -26,5 +26,5 @@ https://github.com/angristan/openvpn-install
 
 3. on client side config .ovpn to push vpn local trafic only
 
-route-nopull
-route 10.0.1.0 255.255.255.0
+<br />route-nopull
+<br />route 10.0.1.0 255.255.255.0
